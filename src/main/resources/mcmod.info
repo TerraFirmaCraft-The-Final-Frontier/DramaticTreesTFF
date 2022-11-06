@@ -1,13 +1,13 @@
 [
   {
     "modid": "dynamictreestfc",
-    "name": "DynamicTreesTFC",
-    "description": "Dynamic Trees add-on for TFC",
+    "name": "TFC:TFF: Dramatic Trees",
+    "description": "Fork of TFC: Dynamic Trees for usage alongside TerraFirmaCraft: The Final Frontier.",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "",
+    "url": "https://curseforge.com/minecraft/mc-mods/dtff",
     "updateUrl": "",
-    "authorList": ["Gaelmare"],
+    "authorList": ["Lylythii", "Gaelmare"],
     "credits": "",
     "logoFile": "",
     "screenshots": [],

@@ -15,23 +15,23 @@ import net.dries007.tfc.api.types.Tree;
 public class BlockLogDTTFC extends BlockLog
 {
     private static final Map<Tree, BlockLogDTTFC> MAP = new HashMap<>();
-    public final Tree wood;
+    public final Tree tree;
 
-    public static BlockLogDTTFC get(Tree wood)
+    public static BlockLogDTTFC get(Tree tree)
     {
-        return MAP.get(wood);
+        return MAP.get(tree);
     }
 
-    public BlockLogDTTFC(Tree wood)
+    public BlockLogDTTFC(Tree tree)
     {
         super();
-        if (MAP.put(wood, this) != null)
+        if (MAP.put(tree, this) != null)
         {
             throw new IllegalStateException("There can only be one.");
         }
         else
         {
-            this.wood = wood;
+            this.tree = tree;
             setSoundType(SoundType.WOOD);
             setHardness(5.0F).setResistance(5.0F);
             setHarvestLevel("axe", 0);

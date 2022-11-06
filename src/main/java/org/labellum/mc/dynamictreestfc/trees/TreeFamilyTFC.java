@@ -62,7 +62,7 @@ public class TreeFamilyTFC extends TreeFamily
     public TreeFamily setPrimitiveLog(IBlockState primLog)
     {
         BlockLogDTTFC primLogBlock = (BlockLogDTTFC) primLog.getBlock();
-        BlockLogTFC log = BlockLogTFC.get(primLogBlock.wood);
+        BlockLogTFC log = BlockLogTFC.get(primLogBlock.tree);
         ItemStack stack = new ItemStack(Item.getItemFromBlock(log));
         return super.setPrimitiveLog(primLog, stack);
     }

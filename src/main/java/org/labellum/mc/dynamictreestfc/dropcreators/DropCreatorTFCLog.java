@@ -28,7 +28,7 @@ public class DropCreatorTFCLog extends DropCreator
         Species.LogsAndSticks las = species.getLogsAndSticks(volume);
         int numLogs = las.logs;
         ItemStack logs = species.getFamily().getPrimitiveLogItemStack(1);
-        int stackSize = BlockLogTFC.get(((BlockLogDTTFC) species.getFamily().getPrimitiveLog().getBlock()).wood).getStackSize(logs);
+        int stackSize = BlockLogTFC.get(((BlockLogDTTFC) species.getFamily().getPrimitiveLog().getBlock()).tree).getStackSize(logs);
         while (numLogs > 0)
         {
             dropList.add(species.getFamily().getPrimitiveLogItemStack(Math.min(numLogs, stackSize)));
