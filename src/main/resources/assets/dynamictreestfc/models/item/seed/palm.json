@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures": {
-    "layer0":"dynamictreestfc:items/seed/palm"
+    "layer0":"tfc:items/materials/flora/tree/seed/palm"
   }
 }
